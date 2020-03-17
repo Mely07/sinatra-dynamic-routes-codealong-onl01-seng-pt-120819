@@ -24,7 +24,7 @@ class App < Sinatra::Base
     # "#{@answer}"
     @num_1 = params[:num1]
     @num_2 = params[:num2]
-     answer = "#{@num_1}.to_i" * "#{@num_2}.to_i"
+     answer = {@num_1}.to_i * {@num_2}.to_i
      answer
   end
   
